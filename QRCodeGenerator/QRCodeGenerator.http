@@ -1,0 +1,6 @@
+@QRCodeGenerator_HostAddress = http://localhost:5268
+
+GET {{QRCodeGenerator_HostAddress}}/QRCode/html?text=testing
+Accept: application/json
+
+###
